@@ -1,0 +1,31 @@
+Why are you interested in this position? 
+
+Im interested in this position because  most of the qualtities and skills that youre looking for.
+
+SKILLS: 
+Proficiency with programming languages 
+	LIKE VB6 , Magic XPA, HTML , CSS , SQL 
+Proficiency with Microsoft windows Application like : 
+	ms word , powerpoint,  and
+	excel  and access and with VBA code  and charts and graphs ,
+problem solving capabilty-
+	source code are written to solve problems, you will need the ability to identify the problem and come up with the most effective ways to solve them through programming. 
+
+communication skills: 
+	Programmers generally spend most of their time working solo in front of a computer. However, many situations require you to communicate with other programmers and team members, especially when working on large or complex projects. Excellent communication skills will enable you to work effectively with others and to share ideas and solutions.and also in my current work , we always present our developed system 
+
+ability to be a part of a team are essential to any programmer.
+
+
+important thing in programming: 
+-Pay attention to details
+	even small error in the code can have significant effect on the outcome. 
+-stay organized
+	it will help in breaking up complex tasks
+
+-planning software: use model and flowcharts to detail how code should be written 
+-design  system
+-writing source code
+-debugging/testing
+-simplify source code -use tools /code libraries tos speedup or simplify programming
+ 

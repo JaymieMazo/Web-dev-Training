@@ -1,0 +1,91 @@
+v-row classes
+Props
+align
+string
+undefined
+Applies the align-items css property. Available options are start, center, end, baseline and stretch.
+
+align-content
+string
+undefined
+Applies the align-content css property. Available options are start, center, end, space-between, space-around and stretch.
+
+align-content-lg
+string
+undefined
+Changes the align-content property on large and greater breakpoints.
+
+align-content-md
+string
+undefined
+Changes the align-content property on medium and greater breakpoints.
+
+align-content-sm
+string
+undefined
+Changes the align-content property on small and greater breakpoints.
+
+align-content-xl
+string
+undefined
+Changes the align-content property on extra large and greater breakpoints.
+
+align-lg
+string
+undefined
+Changes the align-items property on large and greater breakpoints.
+
+align-md
+string
+undefined
+Changes the align-items property on medium and greater breakpoints.
+
+align-sm
+string
+undefined
+Changes the align-items property on small and greater breakpoints.
+
+align-xl
+string
+undefined
+Changes the align-items property on extra large and greater breakpoints.
+
+dense
+boolean
+false
+Reduces the gutter between v-cols.
+
+justify
+string
+undefined
+Applies the justify-content css property. Available options are start, center, end, space-between and space-around.
+
+justify-lg
+string
+undefined
+Changes the justify-content property on large and greater breakpoints.
+
+justify-md
+string
+undefined
+Changes the justify-content property on medium and greater breakpoints.
+
+justify-sm
+string
+undefined
+Changes the justify-content property on small and greater breakpoints.
+
+justify-xl
+string
+undefined
+Changes the justify-content property on extra large and greater breakpoints.
+
+no-gutters
+boolean
+false
+Removes the gutter between v-cols.
+
+tag
+string
+'div'
+Specify a custom tag used on the root element.

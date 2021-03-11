@@ -1,0 +1,28 @@
+$fields = "(`" . implode("`,`",array_keys($datas)) . "`)";
+        $bind = "(:" . implode(",:",array_keys($datas)) . ")";
+ try{
+
+            $stmt = $this->_pdo->prepare("INSERT INTO `{$this->_tblname}` {$fields} VALUES {$bind} ");
+
+            foreach($datas as $key=>$value){
+
+                $stmt->bindValue(":{$key}",$value,(is_string($value)) ? PDO::PARAM_STR : PDO::PARAM_INT);
+
+            }
+
+            $stmt->execute();
+
+        }catch(PDOException $e){
+            echo $e->getMessage();
+        }
+ if(count($datas) != count($datas, COUNT_RECURSIVE)){
+
+            foreach($datas as $data){
+                $this->_insert($data);
+            }
+
+        }else{
+           
+            $this->_insert($datas);
+
+        }

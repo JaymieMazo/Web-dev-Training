@@ -1,0 +1,6 @@
+v-container
+
+props:
+fluid-boolean false
+id-string  undefined
+tag-string	div

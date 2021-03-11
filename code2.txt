@@ -1,0 +1,42 @@
+<?php
+    require_once 'connection.php'; //import the connection script
+
+    try {
+        $pdo = new PDO(DSN,USER,PWD);
+        $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); //Attribute for error and exemption
+        $pdo->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC); //Attribute for fetching data
+        $pdo->beginTransaction(); 
+
+
+        // $strsql = $pdo->query( //query (selection)
+        //     "SELECT * FROM users"
+        // );
+        // $data = $strsql->fetchAll(); //for fetching only of data **
+        // echo '<pre>';
+        // print_r($data[0]['EmployeeCode']);
+        // echo '</pre>'; //**
+
+        $strsql= $pdo->prepare( //prepare (for transaction ex. INSERT,UPDATE,DELETE)
+            "INSERT INTO users (
+                EmployeeCode, 
+                EmployeeName, 
+                DeptCode, 
+                UpdatedBy
+                ) VALUES (
+                    :EmployeeCode, 
+                    :EmployeeName, 
+                    :DeptCode, 
+                    :UpdatedBy
+                )"
+        );
+
+        $strsql ->bindValue(':EmployeeCode', '36060', PDO::PARAM_STR); //<--"PDO::PARAM_STR" = datatype
+        $strsql ->bindValue(':EmployeeName', 'Fredrick Rollamas', PDO::PARAM_STR);
+        $strsql ->bindValue(':DeptCode', '001', PDO::PARAM_STR);
+        $strsql ->bindValue(':UpdatedBy', '37037', PDO::PARAM_STR);
+        $strsql->execute();
+
+        $pdo->commit();
+    } catch (PDOException $ex) {
+        echo $ex->getMessage();
+    }

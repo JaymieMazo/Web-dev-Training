@@ -1,0 +1,26 @@
+v-text-field
+
+REGULAR:HIDDEN
+ <v-text-field
+            label="Regular"
+          ></v-text-field>
+
+PLACEHOLDER:NOT HIDDEN
+<v-text-field
+            label="Regular"
+            placeholder="Placeholder"
+          ></v-text-field>
+
+SOLO: 
+<v-text-field
+            label="Solo"
+            placeholder="Placeholder"
+            solo
+          ></v-text-field>
+
+
+FIELD:
+v-text-field
+            label="Filled"
+            filled
+          ></v-text-field>

@@ -1,0 +1,17 @@
+
+<template>
+<div id="app">
+  <v-app id="inspire">
+   
+    <div>
+     
+      <v-text-field
+        label="Username"
+        :rules="rules"
+      ></v-text-field>
+
+      <v-text-field label="Another input"></v-text-field>
+    </div>
+  </v-app>
+</div>
+</template>

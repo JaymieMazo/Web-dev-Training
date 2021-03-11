@@ -1,0 +1,86 @@
+v-col classes
+Props
+align-self
+string
+undefined
+Applies the align-items css property. Available options are start, center, end, auto, baseline and stretch.
+
+cols
+boolean | string | number
+false
+Sets the default number of columns the component extends. Available options are 1 -> 12 and auto.
+
+lg
+boolean | string | number
+false
+Changes the number of columns on large and greater breakpoints.
+
+md
+boolean | string | number
+false
+Changes the number of columns on medium and greater breakpoints.
+
+offset
+string | number
+undefined
+Sets the default offset for the column.
+
+offset-lg
+string | number
+undefined
+Changes the offset of the component on large and greater breakpoints.
+
+offset-md
+string | number
+undefined
+Changes the offset of the component on medium and greater breakpoints.
+
+offset-sm
+string | number
+undefined
+Changes the offset of the component on small and greater breakpoints.
+
+offset-xl
+string | number
+undefined
+Changes the offset of the component on extra large and greater breakpoints.
+
+order
+string | number
+undefined
+Sets the default order for the column.
+
+order-lg
+string | number
+undefined
+Changes the order of the component on large and greater breakpoints.
+
+order-md
+string | number
+undefined
+Changes the order of the component on medium and greater breakpoints.
+
+order-sm
+string | number
+undefined
+Changes the order of the component on small and greater breakpoints.
+
+order-xl
+string | number
+undefined
+Changes the order of the component on extra large and greater breakpoints.
+
+sm
+boolean | string | number
+false
+Changes the number of columns on small and greater breakpoints.
+
+tag
+string
+'div'
+Specify a custom tag used on the root element.
+
+xl
+boolean | string | number
+false
+Changes the number of columns on extra large and greater breakpoints.

@@ -1,0 +1,17 @@
+Public Function GetComputerName() As String 'Added by Tubs 20180703
+
+'Retrieves computer name
+Dim lngLen As Long, lngX As Long
+Dim strCompName As String
+
+lngLen = 16
+strCompName = String$(lngLen, 0)
+lngX = apiGetComputerName(strCompName, lngLen)
+
+If lngX <> 0 Then
+    GetComputerName = Left$(strCompName, lngLen)
+Else
+    GetComputerName = ""
+End If
+
+End Function

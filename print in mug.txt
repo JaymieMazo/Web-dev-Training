@@ -1,0 +1,12 @@
+materials:
+electric iron
+mugs
+sublimation paper
+inkjet printer
+tape 
+scissors
+
+steps:
+select pic with right size and print
+tape in mug 
+pressed with e-iron 

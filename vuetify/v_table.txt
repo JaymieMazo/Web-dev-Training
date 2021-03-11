@@ -1,0 +1,22 @@
+<template>
+    <div>
+    <h1 style=""> Login</h1>
+    <v-simple-table>
+        <thead>
+            <tr>
+                <th>
+                    Name
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Jai</td>
+            </tr>
+            <tr>
+                <td>Jane</td>
+            </tr>
+        </tbody>
+    </v-simple-table>
+    </div>
+</template>
